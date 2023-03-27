@@ -1,0 +1,23 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
+    {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"oTileParent","order":21,"path":"objects/oTileParent/oTileParent.yy",},
+    {"name":"oWorldBorder","order":19,"path":"objects/oWorldBorder/oWorldBorder.yy",},
+    {"name":"oWater","order":12,"path":"objects/oWater/oWater.yy",},
+    {"name":"sEmpty","order":1,"path":"sprites/sEmpty/sEmpty.yy",},
+    {"name":"sChecker","order":14,"path":"sprites/sChecker/sChecker.yy",},
+    {"name":"oChecker","order":13,"path":"objects/oChecker/oChecker.yy",},
+    {"name":"oGround","order":17,"path":"objects/oGround/oGround.yy",},
+    {"name":"oTree","order":16,"path":"objects/oTree/oTree.yy",},
+    {"name":"sWorldBorder","order":20,"path":"sprites/sWorldBorder/sWorldBorder.yy",},
+    {"name":"oRiverside","order":18,"path":"objects/oRiverside/oRiverside.yy",},
+    {"name":"oMountain","order":15,"path":"objects/oMountain/oMountain.yy",},
+    {"name":"oGod","order":11,"path":"objects/oGod/oGod.yy",},
+  ],
+}

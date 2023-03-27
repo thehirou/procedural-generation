@@ -1,0 +1,48 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "Procedural-Generation",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.2.1.75",
+  },
+  "resources": [
+    {"id":{"name":"oTileParent","path":"objects/oTileParent/oTileParent.yy",},},
+    {"id":{"name":"oWorldBorder","path":"objects/oWorldBorder/oWorldBorder.yy",},},
+    {"id":{"name":"sTile","path":"sprites/sTile/sTile.yy",},},
+    {"id":{"name":"oWater","path":"objects/oWater/oWater.yy",},},
+    {"id":{"name":"sEmpty","path":"sprites/sEmpty/sEmpty.yy",},},
+    {"id":{"name":"sChecker","path":"sprites/sChecker/sChecker.yy",},},
+    {"id":{"name":"oChecker","path":"objects/oChecker/oChecker.yy",},},
+    {"id":{"name":"oGround","path":"objects/oGround/oGround.yy",},},
+    {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},},
+    {"id":{"name":"sWorldBorder","path":"sprites/sWorldBorder/sWorldBorder.yy",},},
+    {"id":{"name":"oRiverside","path":"objects/oRiverside/oRiverside.yy",},},
+    {"id":{"name":"oMountain","path":"objects/oMountain/oMountain.yy",},},
+    {"id":{"name":"oGod","path":"objects/oGod/oGod.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
