@@ -34,4 +34,3 @@ if tileType=tiles.tree and global.childrenStop=false
 	}
 	
 }
-
