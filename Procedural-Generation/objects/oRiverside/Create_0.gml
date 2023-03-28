@@ -8,3 +8,5 @@ checkXPLUS=instance_create_layer(x+TILEBIG,y,layer,oChecker)
 checkXMIN=instance_create_layer(x-TILEBIG,y,layer,oChecker)
 
 replaceForTile();
+
+timer=0

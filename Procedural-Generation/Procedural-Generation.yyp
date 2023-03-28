@@ -34,6 +34,7 @@
     {"id":{"name":"sTileset","path":"sprites/sTileset/sTileset.yy",},},
     {"id":{"name":"oChecker","path":"objects/oChecker/oChecker.yy",},},
     {"id":{"name":"oFollow","path":"objects/oFollow/oFollow.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"oGround","path":"objects/oGround/oGround.yy",},},
     {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},},

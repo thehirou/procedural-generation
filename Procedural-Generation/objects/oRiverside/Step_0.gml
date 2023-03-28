@@ -35,3 +35,4 @@ if tileType=tiles.riverside and global.childrenStop=false
 	
 }else{instance_destroy(id)}
 
+

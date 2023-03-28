@@ -5,8 +5,17 @@ if timer>maxTime
 	global.childrenStop=true
 }
 
-if keyboard_check_pressed(ord("R")){game_restart()}
+if global.childrenStop=false
+{
+game_set_speed(60,gamespeed_fps)	
+}
+else
+{
+game_set_speed(60,gamespeed_fps)	
+}
 
+if keyboard_check_pressed(ord("R")){game_restart()}
+/*
 if keyboard_check(ord("Z"))
 {
 	camera_set_view_pos(view_camera[0],camX-640*3,camY-480*3)
@@ -17,8 +26,8 @@ else
 	camera_set_view_size(view_camera[0],640,480)
 	camera_set_view_pos(view_camera[0],camX,camY)
 }
+*/
 
-game_set_speed(60,gamespeed_fps)
 
 
 

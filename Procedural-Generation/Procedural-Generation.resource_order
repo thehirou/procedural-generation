@@ -16,6 +16,7 @@
     {"name":"sTileset","order":25,"path":"sprites/sTileset/sTileset.yy",},
     {"name":"oChecker","order":13,"path":"objects/oChecker/oChecker.yy",},
     {"name":"oFollow","order":27,"path":"objects/oFollow/oFollow.yy",},
+    {"name":"oCamera","order":30,"path":"objects/oCamera/oCamera.yy",},
     {"name":"Script1","order":24,"path":"scripts/Script1/Script1.yy",},
     {"name":"oGround","order":17,"path":"objects/oGround/oGround.yy",},
     {"name":"oTree","order":16,"path":"objects/oTree/oTree.yy",},
