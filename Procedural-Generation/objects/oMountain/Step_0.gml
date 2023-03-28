@@ -1,5 +1,5 @@
 //RULES
-if tileType=tiles.ground and global.childrenStop=false
+if tileType=tiles.mountain and global.childrenStop=false
 {
 	with(checkYMIN)
 	{
@@ -33,5 +33,5 @@ if tileType=tiles.ground and global.childrenStop=false
 		}
 	}
 	
-}
+}else{instance_destroy(id)}
 

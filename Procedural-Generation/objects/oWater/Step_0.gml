@@ -33,5 +33,5 @@ if tileType=tiles.water and global.childrenStop=false
 		}
 	}
 	
-}
+}else{instance_destroy(id)}
 

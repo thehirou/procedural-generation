@@ -33,4 +33,4 @@ if tileType=tiles.tree and global.childrenStop=false
 		}
 	}
 	
-}
+}else{instance_destroy(id)}

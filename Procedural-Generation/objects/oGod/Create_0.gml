@@ -1,17 +1,22 @@
 /*
 NOTES:
-	-DELETE ALL OBJECTS AFTER TERRAIN GENERATION IS DONE AND REPLACE THEM WITH TILESETS
-	-FIX GENERATION RULES, SOMETIMES WHEN THERE'S A MOUNTAIN CIRCLE IT WON'T GENERATE ANYTHING INSIDE
-		(MAYBE ADD A DEFAULT GROUND TILE IF THERE'S NOTHING GENERATED)
+	-FIX GENERATION RULES
+	-DELETE OBJECTS AS THEY ARE BEING CREATED
+	-GENERATE OBJECTS AS YOU WALK, IN A SET RENDER RADIUS
 */
 
+//global.tileLayerCreate=layer_create(-1)
+global.tileLayerCreate=layer_get_id("tileset")
+global.tilemap=layer_tilemap_create(global.tileLayerCreate,0,0,tlTileset,room_width/2,room_height/2)
 
-#macro TILEBIG 40
-#macro CHOOSE_WATER_OPTIONS choose(oGround, oWater)
+
+#macro TILEBIG 32
+#macro CHOOSE_MOUNTAIN_OPTIONS choose(oGround,oMountain,oMountain)
+#macro CHOOSE_WATER_OPTIONS choose(oGround, oWater,oWater)
 #macro CHOOSE_TREE_OPTIONS choose(oGround,oGround, oTree, oRiverside)
-#macro CHOOSE_RIVERSIDE_OPTIONS choose(oWater, oWater, oWater, oWater, oRiverside)
-#macro CHOOSE_GROUND_OPTIONS choose(oTree, oTree, oMountain, oGround, oGround, oGround,oGround,oGround,oGround)
-#macro CHOOSE_MOUNTAIN_OPTIONS choose(oGround,oGround,oGround,oMountain)
+#macro CHOOSE_RIVERSIDE_OPTIONS choose(oWater)
+#macro CHOOSE_GROUND_OPTIONS choose(oTree, oGround, oGround, oGround,oGround)
+
 
 enum tiles
 {
@@ -24,6 +29,8 @@ riverside,
 
 timer=0
 maxTime=real(get_string("Set render distance",""))
+random_set_seed(real(get_string("Set seed","")))
+
 
 
 

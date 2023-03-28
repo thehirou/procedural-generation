@@ -1,4 +1,4 @@
-if place_meeting(x,y,oWorldBorder)
+if global.childrenStop=true
 {
-instance_deactivate_object(id)	
+instance_destroy(id)	
 }

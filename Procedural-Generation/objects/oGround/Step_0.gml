@@ -32,6 +32,6 @@ if tileType=tiles.ground and global.childrenStop=false
 			instance_create_layer(x,y,layer,CHOOSE_GROUND_OPTIONS)
 		}
 	}
-	
-}
+
+}else{instance_destroy(id)}
 
