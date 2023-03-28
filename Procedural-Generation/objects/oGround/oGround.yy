@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Procedural-Generation",
-    "path": "Procedural-Generation.yyp",
+    "name": "ObjTiles",
+    "path": "folders/ObjTiles.yy",
   },
   "parentObjectId": {
     "name": "oTileParent",

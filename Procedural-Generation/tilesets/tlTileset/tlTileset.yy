@@ -12,8 +12,8 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "parent": {
-    "name": "Procedural-Generation",
-    "path": "Procedural-Generation.yyp",
+    "name": "Tileset",
+    "path": "folders/Tileset.yy",
   },
   "spriteId": {
     "name": "sCoolerTileset",
