@@ -10,7 +10,7 @@ global.tileLayerCreate=layer_get_id("tileset")
 global.tilemap=layer_tilemap_create(global.tileLayerCreate,0,0,tlTileset,room_width/2,room_height/2)
 
 
-#macro TILEBIG 32
+#macro TILEBIG 16
 #macro CHOOSE_MOUNTAIN_OPTIONS choose(oGround,oMountain,oMountain)
 #macro CHOOSE_WATER_OPTIONS choose(oGround, oWater,oWater)
 #macro CHOOSE_TREE_OPTIONS choose(oGround,oGround, oTree, oRiverside)

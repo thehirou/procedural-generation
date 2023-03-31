@@ -1,4 +1,4 @@
-var spd=5
+var spd=1
 
 if keyboard_check(vk_right){x+=spd}
 if keyboard_check(vk_left){x-=spd}
